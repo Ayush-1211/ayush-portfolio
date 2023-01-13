@@ -52,19 +52,19 @@ const skillsSection = {
   subTitle: "A PASSIONATE STUDENT WHO WANTS TO EXPLORE EVERY TECH STACK AND SOLVE PROBLEMS",
   skills: [
     emoji(
-      "⚡ A student having experience in building Web Apps using new Frameworks and Technologies"
+      "💡 A student having experience in building Web Apps using new Frameworks and Technologies"
     ),
     emoji(
-      "⚡ Passionate about problem-solving and Competitive programmer with a demonstrated history of solving problems in DSA"
+      "💡 Passionate about problem-solving and Competitive programmer with a demonstrated history of solving problems in DSA"
     ),
     emoji(
-      "⚡ Skilled in Java, Python, Javascript, React.js, Node.js and PHP"
+      "💡 Skilled in Java, Python, Javascript, React.js, Node.js and PHP"
     ),
     emoji(
-      "⚡ Familiar with advanced technologies like Artificial Intelligence, Machine Learning, Deep Learning, and Data Science"
+      "💡 Familiar with advanced technologies like Artificial Intelligence, Machine Learning, Deep Learning, and Data Science"
     ),
     emoji(
-      "⚡ A Quick Learner"
+      "💡 A Quick Learner"
     ),
   ],
 
