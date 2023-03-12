@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/ayush-portfolio/static/css/main.75596eab.css",
+    "main.js": "/ayush-portfolio/static/js/main.57835f62.js",
+    "static/css/141.27c49f1b.chunk.css": "/ayush-portfolio/static/css/141.27c49f1b.chunk.css",
+    "static/js/141.39d42cd0.chunk.js": "/ayush-portfolio/static/js/141.39d42cd0.chunk.js",
+    "static/css/769.70f3b610.chunk.css": "/ayush-portfolio/static/css/769.70f3b610.chunk.css",
+    "static/js/769.ed3669fb.chunk.js": "/ayush-portfolio/static/js/769.ed3669fb.chunk.js",
+    "static/media/Ayush.png": "/ayush-portfolio/static/media/Ayush.9bb6b36c48da5fa958d8.png",
+    "static/media/Montserrat-Regular.ttf": "/ayush-portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/likeMe.png": "/ayush-portfolio/static/media/likeMe.110ec29353ab2edebf1a.png",
+    "static/media/Agustina.woff": "/ayush-portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/ICT4SD.png": "/ayush-portfolio/static/media/ICT4SD.4bf0b5428ad9a100ec80.png",
+    "static/media/dhineural.png": "/ayush-portfolio/static/media/dhineural.40bd48df9e7416ae05e3.png",
+    "static/media/contactMailDark.svg": "/ayush-portfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/ayush-portfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/education.caed892b.png": "/ayush-portfolio/static/media/education.caed892b.f805233ab83a3e4f6bfe.png",
+    "static/media/bank.png": "/ayush-portfolio/static/media/bank.f0312dd2cc259a9b777c.png",
+    "static/media/medicalAssistance.png": "/ayush-portfolio/static/media/medicalAssistance.bd83424a9d64d1fef0ee.png",
+    "static/media/java-gold.png": "/ayush-portfolio/static/media/java-gold.d8ced5fa8b85d2286e35.png",
+    "static/media/azure.png": "/ayush-portfolio/static/media/azure.f0a78568ed6e3934c989.png",
+    "static/media/30-days.png": "/ayush-portfolio/static/media/30-days.6a4b74cc38909f5bb6d9.png",
+    "static/media/skill.svg": "/ayush-portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "index.html": "/ayush-portfolio/index.html",
+    "static/media/talksCardBack.svg": "/ayush-portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.75596eab.css.map": "/ayush-portfolio/static/css/main.75596eab.css.map",
+    "main.57835f62.js.map": "/ayush-portfolio/static/js/main.57835f62.js.map",
+    "141.27c49f1b.chunk.css.map": "/ayush-portfolio/static/css/141.27c49f1b.chunk.css.map",
+    "141.39d42cd0.chunk.js.map": "/ayush-portfolio/static/js/141.39d42cd0.chunk.js.map",
+    "769.70f3b610.chunk.css.map": "/ayush-portfolio/static/css/769.70f3b610.chunk.css.map",
+    "769.ed3669fb.chunk.js.map": "/ayush-portfolio/static/js/769.ed3669fb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75596eab.css",
+    "static/js/main.57835f62.js"
+  ]
+}
