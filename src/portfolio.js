@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Ayush",
-  title: "Hello all, I'm Ayush",
+  title: "Hello, I'm Ayush",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🖥️ and a Student having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / Java / Python and some other frameworks and libraries."
   ),
@@ -125,7 +125,7 @@ const educationInfo = {
       schoolName: "University of Windsor",
       logo: require("./assets/images/education.caed892b.png"),
       subHeader: "Master of Applied Computing",
-      duration: "September 2022 - December 2023",
+      duration: "Sept 2022 - Present (Expected Dec 2023)",
       /*desc: "",
       descBullets: [
         "",
@@ -136,7 +136,7 @@ const educationInfo = {
       schoolName: "Aditya Silver Oak Institute of Technology",
       logo: require("./assets/images/education.caed892b.png"),
       subHeader: "Bachelors of Engineering in Information Technology",
-      duration: "August 2018 - May 2022",
+      duration: "Aug 2018 - May 2022",
       //desc: "",
       descBullets: ["CGPA: 9.40/10"]
     },
@@ -158,19 +158,19 @@ const techStack = {
   experience: [
     {
       Stack: "Java", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Python",
-      progressPercentage: "90%"
+      progressPercentage: "80%"
     },
     {
       Stack: "React.js",
-      progressPercentage: "70%"
+      progressPercentage: "90%"
     },
     {
       Stack: "Node.js",
-      progressPercentage: "75%"
+      progressPercentage: "85%"
     },
     {
       Stack: "JavaScript",
@@ -361,7 +361,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://www.linkedin.com/posts/ayush-prajapati-b51bbb166_research-paper-certificates-activity-6960103424164016128-oRax?utm_source=linkedin_share&utm_medium=member_desktop_web"
+          url: "https://link.springer.com/chapter/10.1007/978-981-19-5221-0_43"
         }
       ]
     },
