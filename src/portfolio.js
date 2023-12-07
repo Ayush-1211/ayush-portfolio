@@ -1,26 +1,26 @@
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; 
+import splashAnimation from "./assets/lottie/splashAnimation";
 
 // Splash Screen
 const splashScreen = {
-  enabled: true, 
+  enabled: true,
   animation: splashAnimation,
-  duration: 2000 
+  duration: 2000
 };
 
 // Summary And Greeting Section
 const illustration = {
-  animated: true 
+  animated: true
 };
 
 const greeting = {
   username: "Ayush",
   title: "Hello, I'm Ayush",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🖥️ and a student having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / Java / Python and some other frameworks and libraries."
+    "Enthusiastic Full Stack Software Developer 🚀 and dedicated student with a proven track record in crafting innovative Web and Mobile applications. Proficient in harnessing the power of JavaScript, React.js, Java, Python, Machine Learning and various frameworks/libraries to bring ideas to life. My passion lies in seamlessly blending creativity with functionality, ensuring each project is a testament to my commitment to excellence. Let's embark on a journey where code meets creativity, and every line written contributes to a digital masterpiece. Welcome to my world of endless possibilities! 💻✨"
   ),
-  resumeLink: "", 
-  displayGreeting: true 
+  resumeLink: "",
+  displayGreeting: true
 };
 
 // Social Media Links
@@ -32,7 +32,7 @@ const socialMediaLinks = {
   //facebook: "",
   //medium: "",
   stackoverflow: "https://stackoverflow.com/users/12823911/ayush-prajapati",
-  display: true 
+  display: true
 };
 
 // Skills Section
@@ -57,7 +57,7 @@ const skillsSection = {
     ),
   ],
 
- 
+
   softwareSkills: [
     {
       skillName: "reactjs",
@@ -100,12 +100,12 @@ const skillsSection = {
       fontAwesomeClassname: "fas fa-fire"
     },
   ],
-  display: true 
+  display: true
 };
 
 // Education Section
 const educationInfo = {
-  display: true, 
+  display: true,
   schools: [
     {
       schoolName: "University of Windsor",
@@ -139,11 +139,11 @@ const educationInfo = {
 
 // proficient stacks/tech experience
 const techStack = {
-  viewSkillBars: true, 
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Java", 
-      progressPercentage: "80%" 
+      Stack: "Java",
+      progressPercentage: "80%"
     },
     {
       Stack: "Python",
@@ -166,12 +166,12 @@ const techStack = {
       progressPercentage: "80%"
     }
   ],
-  displayCodersrank: false 
+  displayCodersrank: false
 };
 
 // Work experience section
 const workExperiences = {
-  display: true, 
+  display: true,
   experience: [
     {
       role: "Deep Learning Intern",
@@ -221,7 +221,7 @@ const workExperiences = {
       //desc: "",
       descBullets: [
         "Created Full Stack Website (Banking System)",
-        "Hosted website using 000webhost", 
+        "Hosted website using 000webhost",
         "Frontend work: HTML, CSS, JavaScript, Bootstrap",
         "Backend work: PHP",
         "Database work: MySQL"
@@ -231,8 +231,8 @@ const workExperiences = {
 };
 
 const openSource = {
-  showGithubProfile: "true", 
-  display: false 
+  showGithubProfile: "true",
+  display: false
 };
 
 // Major projects
@@ -274,7 +274,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true 
+  display: true
 };
 
 // Achievement Section
@@ -380,7 +380,7 @@ const achievementSection = {
     },
 
   ],
-  display: true 
+  display: true
 };
 
 // Blogs Section
@@ -389,7 +389,7 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", 
+  displayMediumBlogs: "true",
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
@@ -404,7 +404,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: false 
+  display: false
 };
 
 // Talks Sections
@@ -422,7 +422,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: false 
+  display: false
 };
 
 // Podcast Section
@@ -432,7 +432,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: false 
+  display: false
 };
 
 const contactInfo = {
@@ -445,8 +445,8 @@ const contactInfo = {
 
 // Twitter Section
 const twitterDetails = {
-  userName: "twitter", 
-  display: false 
+  userName: "twitter",
+  display: false
 };
 
 export {
