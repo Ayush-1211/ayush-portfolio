@@ -17,7 +17,7 @@ const greeting = {
   username: "Ayush",
   title: "Hello, I'm Ayush",
   subTitle: emoji(
-    "Enthusiastic Full Stack Software Developer 🚀 and dedicated student with a proven track record in crafting innovative Web and Mobile applications. Proficient in harnessing the power of JavaScript, React.js, Java, Python, Machine Learning and various frameworks/libraries to bring ideas to life. My passion lies in seamlessly blending creativity with functionality, ensuring each project is a testament to my commitment to excellence. Let's embark on a journey where code meets creativity, and every line written contributes to a digital masterpiece. Welcome to my world of endless possibilities! 💻✨"
+    "Enthusiastic Full Stack Software Developer 🚀 with a proven track record in crafting innovative Web and Mobile applications. Proficient in harnessing the power of JavaScript, React.js, Java, Python, Machine Learning and various frameworks/libraries to bring ideas to life. My passion lies in seamlessly blending creativity with functionality, ensuring each project is a testament to my commitment to excellence. Let's embark on a journey where code meets creativity, and every line written contributes to a digital masterpiece. Welcome to my world of endless possibilities! 💻✨"
   ),
   resumeLink: "",
   displayGreeting: true
@@ -38,22 +38,22 @@ const socialMediaLinks = {
 // Skills Section
 const skillsSection = {
   title: "My Skills",
-  subTitle: "A PASSIONATE STUDENT WHO WANTS TO EXPLORE EVERY TECH STACK AND SOLVE PROBLEMS",
+  subTitle: "An eager learner on a quest to unravel the intricacies of diverse tech stacks, solving challenges along the way.",
   skills: [
     emoji(
-      "💡 A student having experience in building Web Apps using new Frameworks and Technologies"
+      "🚀 Web Developer exploring cutting-edge frameworks and technologies"
     ),
     emoji(
-      "💡 Passionate about problem-solving and Competitive programmer with a demonstrated history of solving problems in DSA"
+      "🚀 Enthusiastic problem-solver and competitive programmer adept in Data Structures and Algorithms"
     ),
     emoji(
-      "💡 Skilled in Java, Python, Javascript, React.js, Node.js and PHP"
+      "🚀 Proficient in Java, Python, JavaScript, React.js, Node.js, and PHP"
     ),
     emoji(
-      "💡 Familiar with advanced technologies like Artificial Intelligence, Machine Learning, Deep Learning, and Data Science"
+      "🚀 Exploring advanced realms: AI, Machine Learning, Deep Learning, and Data Science"
     ),
     emoji(
-      "💡 A Quick Learner"
+      "🚀 Rapid learner with a knack for staying ahead of the curve"
     ),
   ],
 
@@ -123,35 +123,32 @@ const educationInfo = {
       schoolName: "University of Windsor",
       logo: require("./assets/images/education.caed892b.png"),
       subHeader: "Master of Applied Computing",
-      duration: "Sept 2022 - Present (Expected Dec 2023)",
-      /*desc: "",
-      descBullets: [
-        "",
-        ""
-      ]*/
+      duration: "Sept 2022 - Dec 2023",
+      // desc: "",
+      descBullets: ["GPA: 3.2/4"]
     },
     {
       schoolName: "Aditya Silver Oak Institute of Technology",
       logo: require("./assets/images/education.caed892b.png"),
-      subHeader: "Bachelors of Engineering in Information Technology",
+      subHeader: "Bachelor of Engineering in Information Technology",
       duration: "Aug 2018 - May 2022",
       //desc: "",
       descBullets: ["CGPA: 9.40/10"]
     },
-    {
-      schoolName: "Mangaldeep Vidhyalay",
-      logo: require("./assets/images/education.caed892b.png"),
-      subHeader: "Higher Secondary",
-      duration: "2016 - 2018",
-      //desc: "",
-      //descBullets: [""]
-    }
+    // {
+    //   schoolName: "Mangaldeep Vidhyalay",
+    //   logo: require("./assets/images/education.caed892b.png"),
+    //   subHeader: "Higher Secondary",
+    //   duration: "2016 - 2018",
+    //   //desc: "",
+    //   //descBullets: [""]
+    // }
   ]
 };
 
 // proficient stacks/tech experience
 const techStack = {
-  viewSkillBars: true,
+  viewSkillBars: false,
   experience: [
     {
       Stack: "Java",
