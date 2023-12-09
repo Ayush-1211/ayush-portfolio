@@ -55,7 +55,7 @@ export default function Greeting() {
             
               <img
                 alt="man sitting on table"
-                src={require("../../assets/images/Ayush.png")}
+                src={require("../../assets/images/Ayush2.png")}
               ></img>
             
           </div>

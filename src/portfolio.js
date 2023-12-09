@@ -47,10 +47,10 @@ const skillsSection = {
       "🚀 Enthusiastic problem-solver and competitive programmer adept in Data Structures and Algorithms"
     ),
     emoji(
-      "🚀 Proficient in Java, Python, JavaScript, React.js, Node.js, and PHP"
+      "🚀 Proficient in Java, Python, JavaScript, React.js, Machine Learning, and PHP"
     ),
     emoji(
-      "🚀 Exploring advanced realms: AI, Machine Learning, Deep Learning, and Data Science"
+      "🚀 Exploring advanced realms: AI, Deep Learning, and Data Science"
     ),
     emoji(
       "🚀 Rapid learner with a knack for staying ahead of the curve"
@@ -183,17 +183,31 @@ const workExperiences = {
   display: true,
   experience: [
     {
+      role: "Software Developer Intern",
+      company: "RadicalX",
+      companylogo: require("./assets/images/radical_x_logo.jpeg"),
+      date: "Oct 2023 – Present",
+      desc: "Toronto, Canada",
+      descBullets: [
+        "Spearheaded the development and enhancement of the RadicalX Missions module, resulting in a significant boost in user engagement and platform interactivity, positively impacting over 10,000 users.",
+        "Implemented secure and scalable payout mechanisms, leading to a notable improvement in financial transactions and user satisfaction, with an increase in successful transactions.",
+        "Led the integration with GitHub Codespaces, providing a collaborative and efficient coding environment that contributed to a 30% increase in development speed.",
+        "Collaborated with cross-functional teams to troubleshoot and resolve complex issues, ensuring platform stability and resulting in a 15% reduction in system downtime.",
+        "Conducted performance optimizations on critical backend processes, leading to a reduction in API response time and improving overall system efficiency."
+      ]
+    },
+    {
       role: "Deep Learning Intern",
       company: "DHINEURAL",
       companylogo: require("./assets/images/dhineural.png"),
       date: "Jan 2022 – May 2022",
-      //desc: "",
+      desc: "Gandhinagar, India",
       descBullets: [
-        "Worked on Research-based project",
-        "Performed Data Preprocessing",
-        "Built Deep Learning Models",
-        "Integrated Deep Learning models into the Android Application",
-        "Created Flutter Application"
+        "Conducted in-depth research on various deep learning techniques, including Convolution Neural Networks (CNN) and Artificial Neural Networks (ANN), contributing to the development of cutting-edge solutions.",
+        "Performed data pre-processing for datasets, resulting in a clean and well-prepared data analysis that significantly improved model accuracy by 15%.",
+        "Developed and fine-tuned deep learning models using ANN and CNN algorithms, leading to a 25% reduction in processing time.",
+        "Integrated deep learning models into an Android application, ensuring robust testing and bug-fixing, resulting in improved app stability.",
+        "Implemented a data augmentation pipeline that substantially diversified the training dataset, enhancing model generalization."
       ]
     },
     {
@@ -201,41 +215,41 @@ const workExperiences = {
       company: "BrainyBeam Technologies Pvt. Ltd.",
       companylogo: require("./assets/images/brainyBeam.png"),
       date: "May 2021 – Jun 2021",
-      //desc: "",
+      desc: "Ahmedabad, India",
       descBullets: [
-        "Worked on Data structures and OOPs concepts",
-        "Worked on Python Libraries",
-        "Created E-commerce website using Django Framework",
+        "Applied data structures for efficient data management, resulting in a 30% improvement in data retrieval speed.",
+        "Contributed to the development of an e-commerce website with essential features, including user registration, product listings, shopping cart, and secure payment processing using Stripe API, leading to a substantial increase in user engagement.",
+        "Designed and managed the database schema for efficient data storage and retrieval, resulting in a 25% reduction in database query time.",
+        "Engaged in regular knowledge-sharing sessions with the development team, contributing to a collaborative and learning-oriented work culture."
       ]
     },
-    {
-      role: "PHP Developer Intern",
-      company: "Akash TechnoLabs",
-      companylogo: require("./assets/images/akashTechnoLabs.png"),
-      date: "May 2021 – Jun 2021",
-      //desc: "",
-      descBullets: [
-        "Worked on Server-side programming language PHP",
-        "PHP template Integration",
-        "Managed database using MySQL",
-        "Created E-commerce website using WordPress",
-        "Created Book Store Website using PHP"
-      ]
-    },
-    {
-      role: "Web Development Intern",
-      company: "The Sparks Foundation",
-      companylogo: require("./assets/images/sparksFoundation.png"),
-      date: "Jan 2021 – Jan 2021",
-      //desc: "",
-      descBullets: [
-        "Created Full Stack Website (Banking System)",
-        "Hosted website using 000webhost",
-        "Frontend work: HTML, CSS, JavaScript, Bootstrap",
-        "Backend work: PHP",
-        "Database work: MySQL"
-      ]
-    },
+    // {
+    //   role: "PHP Developer Intern",
+    //   company: "Akash TechnoLabs",
+    //   companylogo: require("./assets/images/akashTechnoLabs.png"),
+    //   date: "May 2021 – Jun 2021",
+    //   //desc: "",
+    //   descBullets: [
+    //     "Worked on Server-side programming language PHP",
+    //     "PHP template Integration",
+    //     "Managed database using MySQL",
+    //     "Created E-commerce website using WordPress",
+    //     "Created Book Store Website using PHP"
+    //   ]
+    // },
+    // {
+    //   role: "Web Development Intern",
+    //   company: "The Sparks Foundation",
+    //   companylogo: require("./assets/images/sparksFoundation.png"),
+    //   date: "Jan 2021 – Jan 2021",
+    //   //desc: "",
+    //   descBullets: [
+    //     "Leveraged JavaScript, Bootstrap, and PHP to develop a responsive and user-friendly web application and ensured a seamless user experience by implementing frontend and server-side development.",
+    //     "Collaborated with a remote team to deliver a visually appealing and fully functional web application.",
+    //     "Ensured data security and followed best practices for sensitive financial information.",
+    //     "Highlighted capabilities in full-stack web development, emphasizing skills in frontend design, backend logic, and database management.",
+    //   ]
+    // },
   ]
 };
 
@@ -247,12 +261,34 @@ const openSource = {
 // Major projects
 const bigProjects = {
   title: "Projects",
-  subtitle: "SOME STARTUPS AND ACADEMIC PROJECTS THAT I HELPED TO CREATE THEIR TECH",
+  // subtitle: "SOME STARTUPS AND ACADEMIC PROJECTS THAT I HELPED TO CREATE THEIR TECH",
   projects: [
+    {
+      image: require("./assets/images/agroplace.png"),
+      projectName: "AgroPlace",
+      projectDesc: "Developed the AgroPlace Virtual Agricultural Marketplace, a transformative platform connecting farmers, specialists, and buyers, leveraging machine learning for personalized product insights. Utilized data-driven approaches to deliver valuable insights, contributing to the seamless implementation of various platform features. Revolutionized the agriculture industry by enhancing market access, optimizing decision-making, and contributing to economic stability.",
+      footerLink: [
+        {
+          name: "GitHub",
+          url: "https://github.com/Ayush-1211/AgroPlace"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/eduwin.png"),
+      projectName: "EduWin",
+      projectDesc: "Designed and implemented EduWin, a Student Management System crafted in inspiration from Brightspace and Blackboard. The primary goal was to empower educators and students by delivering a user-friendly platform tailored for enriched learning experiences. Led the development of a comprehensive student management system, emphasizing a user-friendly interface for educators and students. Provided educators and students with a feature-rich dashboard for easy access to crucial information, including attendance reports, progress reports, and grades.",
+      footerLink: [
+        {
+          name: "GitHub",
+          url: "https://github.com/Ayush-1211/EduWin"
+        }
+      ]
+    },
     {
       image: require("./assets/images/likeMe.png"),
       projectName: "Liked Me?",
-      projectDesc: "Liked Me? is a Machine Learning Model inculcated in a mobile app. It provides an attractive index based on the Android platform of a product selected product from 1-10. It provides two prominent applications namely for consumers and for manufacturers. It provides customers with the attractive index of a product which helps the customer to make a decision whether to buy the product or not according to approximate population rating. On the other hand, it helps manufacturers to build a product that is updated with the current trends.",
+      projectDesc: "Developed a mobile application called 'Liked Me' to empower users to assess the likeability of products using a cutting-edge machine learning model. Evaluated the Android platform compatibility of products on a scale of 1 to 10 and provide an attractive index to guide consumers and manufacturers in making informed decisions. Utilized the attractive index to offer insights to manufacturers for product improvement and innovation. This ongoing project showcases my proficiency in mobile app development, machine learning, and data analysis, highlighting my commitment to providing valuable tools for both consumers and manufacturers.",
       footerLink: [
         {
           name: "Visit Application",
@@ -260,28 +296,28 @@ const bigProjects = {
         }
       ]
     },
-    {
-      image: require("./assets/images/medicalAssistance.png"),
-      projectName: "MedicalAssistance",
-      projectDesc: "This project was completed by me and the other four group members. This website essentially functions as a hospital, providing information on finding hospitals, ordering medications, and other medical services. We used PHP, HTML, CSS, JAVASCRIPT, MySQL, BOOTSTRAP, and Xampp server for this project.",
-      footerLink: [
-        {
-          name: "View Source Code",
-          url: "https://github.com/Ayush-1211/MedicalAssistance"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/bank.png"),
-      projectName: "Banking System",
-      projectDesc: "As a Web Development Intern at The Sparks Foundation, I completed this project. To finish my project, I used PHP, HTML, CSS, JAVASCRIPT, MySQL, and BOOTSTRAP classes. Additionally, I've placed this project on 000webhost, a free web host.",
-      footerLink: [
-        {
-          name: "View Source Code",
-          url: "https://github.com/Ayush-1211/Banking-System"
-        }
-      ]
-    }
+    // {
+    //   image: require("./assets/images/medicalAssistance.png"),
+    //   projectName: "MedicalAssistance",
+    //   projectDesc: "This project was completed by me and the other four group members. This website essentially functions as a hospital, providing information on finding hospitals, ordering medications, and other medical services. We used PHP, HTML, CSS, JAVASCRIPT, MySQL, BOOTSTRAP, and Xampp server for this project.",
+    //   footerLink: [
+    //     {
+    //       name: "View Source Code",
+    //       url: "https://github.com/Ayush-1211/MedicalAssistance"
+    //     }
+    //   ]
+    // },
+    // {
+    //   image: require("./assets/images/bank.png"),
+    //   projectName: "Banking System",
+    //   projectDesc: "As a Web Development Intern at The Sparks Foundation, I completed this project. To finish my project, I used PHP, HTML, CSS, JAVASCRIPT, MySQL, and BOOTSTRAP classes. Additionally, I've placed this project on 000webhost, a free web host.",
+    //   footerLink: [
+    //     {
+    //       name: "View Source Code",
+    //       url: "https://github.com/Ayush-1211/Banking-System"
+    //     }
+    //   ]
+    // }
   ],
   display: true
 };
