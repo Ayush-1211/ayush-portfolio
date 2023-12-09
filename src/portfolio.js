@@ -19,7 +19,7 @@ const greeting = {
   subTitle: emoji(
     "Enthusiastic Full Stack Software Developer 🚀 with a proven track record in crafting innovative Web and Mobile applications. Proficient in harnessing the power of JavaScript, React.js, Java, Python, Machine Learning and various frameworks/libraries to bring ideas to life. My passion lies in seamlessly blending creativity with functionality, ensuring each project is a testament to my commitment to excellence. Let's embark on a journey where code meets creativity, and every line written contributes to a digital masterpiece. Welcome to my world of endless possibilities! 💻✨"
   ),
-  resumeLink: "",
+  resumeLink: "https://drive.google.com/file/d/1cu9iQfRBSJRBKy0MKiJIOY1vUk_dyaqP/view?usp=sharing",
   displayGreeting: true
 };
 
